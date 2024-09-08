@@ -7,7 +7,7 @@
 
 <hr>
 <br>
-<b> Convention:</b> <i>The transition probability from the 4th state to the 2nd state is presented in the 4th column and the 2nd row of the corresponsing probabilistic operator.</i>
+<b> Convention:</b> <i>The transition probability from the 4th state to the 2nd state is presented in the 4th column and the 2nd row of the corresponding probabilistic operator.</i>
 <br><br>
 
 <hr>
@@ -27,7 +27,7 @@ What is the third value of $ u = \myvector{0.1 \\ 0.3 \\ ? \\ 0} $ if it represe
 <br>
 
 <script> start_div();  </script>
-What is the value of $ (x+y) $ if $ M = \mymatrix{cc}{ 0.2 & x \\ y & 0.7 } $ a probabilistic operator?
+What is the value of $ (x+y) $ if $ M = \mymatrix{cc}{ 0.2 & x \\ y & 0.7 } $ represents a probabilistic operator?
 <br><br>
 <script> 
 	print_answer(0,"$0.5$");
@@ -41,7 +41,7 @@ What is the value of $ (x+y) $ if $ M = \mymatrix{cc}{ 0.2 & x \\ y & 0.7 } $ a 
 <br>
 
 <script> start_div();  </script>
-What is the value of $ (x+y+z) $ if $ M = \mymatrix{ccc}{ 0.2 & 0.3 & 0.5 \\ 0.4 & 0 & 0.1 \\ x & y & z } $ a probabilistic operator?
+What is the value of $ (x+y+z) $ if $ M = \mymatrix{ccc}{ 0.2 & 0.3 & 0.5 \\ 0.4 & 0 & 0.1 \\ x & y & z } $ represents a probabilistic operator?
 <br><br>
 <script> 
 	print_answer(0,"$1.0$");
@@ -55,7 +55,7 @@ What is the value of $ (x+y+z) $ if $ M = \mymatrix{ccc}{ 0.2 & 0.3 & 0.5 \\ 0.4
 <br>
 
 <script> start_div();  </script>
-What is the value of $ (x+y+z) $ if $ M = \mymatrix{ccc}{ 0.8 & 0.7 & x \\ 0.2 & 0 & y \\ 0 & 0.3 & z } $ a probabilistic operator?
+What is the value of $ (x+y+z) $ if $ M = \mymatrix{ccc}{ 0.8 & 0.7 & x \\ 0.2 & 0 & y \\ 0 & 0.3 & z } $ represents a probabilistic operator?
 <br><br>
 <script> 
 	print_answer(1,"$1.0$");
@@ -111,7 +111,7 @@ We have a probabilistic system with two states. Starting with the initial probab
 <br>
 
 <script> start_div();  </script>
-We have a system composed by two probabilistic bits. The probability of being in the state $ 0 $ in the first bit is $ 0.6 $, and the same probability for the second bit is $ 0.2 $. What is the probabilistic state of the composite system? 
+We have a system composed of two probabilistic bits. The probability of being in the state $ 0 $ in the first bit is $ 0.6 $, and the same probability for the second bit is $ 0.2 $. What is the probabilistic state of the composite system? 
 <br><br>
 <script> 
 	print_answer(0,"$ \\myvector{0.6 \\\\ 0.2 \\\\ 0.6 \\\\ 0.2} $");
@@ -125,7 +125,7 @@ We have a system composed by two probabilistic bits. The probability of being in
 <br>
 
 <script> start_div();  </script>
-The probabilistic state of the composite system with three bits is represented by a vector with eight entries. Which entry represents the state $ 010 $?
+The probabilistic state of a composite system with three bits is represented by a vector with eight entries. Which entry represents the state $ 010 $?
 <br><br>
 <script> 
 	print_answer(0,"the first");
@@ -139,7 +139,7 @@ The probabilistic state of the composite system with three bits is represented b
 <br>
 
 <script> start_div();  </script>
-The probabilistic state of the composite system with three bits is represented by a vector with eight entries. Which state corresponds to the 6th entry?
+The probabilistic state of a composite system with three bits is represented by a vector with eight entries. Which state corresponds to the 6th entry?
 <br><br>
 <script> 
 	print_answer(0,"010");
@@ -196,7 +196,7 @@ Which of the following transitions belong to the operator $ \mymatrix{cc|cc}{ 0 
 <br>
 
 <script> start_div();  </script>
-We apply a controlled-NOT operator on two probabilistic bit where the second one is the controlled bit and the first one is the target the bit. Which of the following transitions represent this operator?
+We apply a controlled-NOT operator on two probabilistic bits where the second one is the control bit and the first one is the target the bit. Which of the following transitions represents this operator?
 <br><br>
 <script> 
 	print_answer(0,"$ \\myarray{cc}{ \\pstate{00} \\rightarrow \\pstate{00} \\\\ \\pstate{01} \\rightarrow \\pstate{01} \\\\ \\pstate{10} \\rightarrow \\pstate{11} \\\\ \\pstate{11} \\rightarrow \\pstate{10} } $");
@@ -210,7 +210,7 @@ We apply a controlled-NOT operator on two probabilistic bit where the second one
 <br>
 
 <script> start_div();  </script>
-We apply a controlled-NOT operator on two probabilistic bit where the second one is the controlled bit and the first one is the target the bit. Which of the following matrix represent this operator?
+We apply a controlled-NOT operator on two probabilistic bits where the second one is the control bit and the first one is the target bit. Which of the following matrix represents this operator?
 <br><br>
 <script> 
 	print_answer(0,"$ \\mymatrix{cc|cc}{ 1 & 0 & 0 & 0 \\\\ 0 & 1 & 0 & 0 \\\\ \\hline 0 & 0 & 0 & 1 \\\\ 0 & 0 & 1 & 0 } $");
@@ -230,7 +230,7 @@ We have a composite system with two probabilistic bits.
 	<li>Second, the fair coin operator $ \faircoin $ is applied to the first bit, and the NOT operator $ \X $ is applied to the second bit.</li>
 	<li>Third, the CNOT operator $ \CNOT $ is applied to the composite system.</li>
 </ul>
-What is the final probabilistic state of the composite system?
+What is the final probabilistic state of this composite system?
 <br><br>
 <script> 
 	print_answer(1,"$ \\donehalf \\pstate{01} + \\donehalf \\pstate{10} $");
@@ -248,11 +248,11 @@ We have a composite system with three probabilistic bits.
 <ul>
 	<li>First, each bit is set to the state 0. </li>
 	<li>Second, the fair coin operator $ \faircoin $ is applied to the second bit, and the NOT operator $ \X $ is applied to the first bit. </li>
-	<li>Third, the CNOT operator is applied on the second and the third bits where the second bit is the controlled bit and the third bit is the target bit. </li>
+	<li>Third, the CNOT operator is applied on the second and the third bits where the second bit is the control bit and the third bit is the target bit. </li>
 	<li>
-	Fourth, the CNOT operator is applied on the third and first bits where the third operator is the controlled bit and the first bit is the target bit. </li>
+	Fourth, the CNOT operator is applied on the third and first bits where the third bit is the control bit and the first bit is the target bit. </li>
 </ul>
-What is the final probabilistic state of the composite system?
+What is the final probabilistic state of this composite system?
 <br><br>
 <script> 
 	print_answer(0,"$ \\donehalf \\pstate{000} + \\donehalf \\pstate{010} $");
@@ -270,4 +270,3 @@ What is the final probabilistic state of the composite system?
 	print_check_all(); 
 	inialize_user_answers()
 </script>
-
