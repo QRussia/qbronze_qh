@@ -43,6 +43,6 @@
 
 ## Признательность
 
-We use [MathJax](https://www.mathjax.org) to display mathematical expressions on html files (e.g., exercises).
+Мы используем [MathJax](https://www.mathjax.org) для отображения математических выражений в html-файлах (в т.ч., упражнениях).
 
-We use open source interactive tool [quantumgame](http://play.quantumgame.io) for showing quantum coin flipping experiments.
+Мы используем опен-сорсный интерактивный инструмент [quantumgame](http://play.quantumgame.io) для визуализации квантовых экспериментов по подбросу монет.
