@@ -1,5 +1,5 @@
 import sys
-sys.path.insert(0, '../qworld/include/')
+sys.path.insert(0, '../../qworld/include/')
 
 from drawing import draw_axes, draw_unit_circle, draw_quantum_state, draw_qubit, draw_qubit_grover, show_plt
 
